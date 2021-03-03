@@ -11,7 +11,7 @@
 		<!-- maximum-scale=1 запрещаем увеличивать масштаб -->
 		<!-- user-scalable=0 на остальных устройствах запрещаем масштабировать вёрстку -->
 		<!-- description содержит небольшой текст — около абзаца — рассказывающий, чему посвящён сайт. -->
-		<meta name="description" content="Страница про различные веб-технологии" />
+		<meta name="description" content="Путешествия после открытия границ" />
 		<!-- указывает автора сайта  -->
 		<meta name="author" content="Владимир Крылов" />
 		<!-- Обнуляем CSS(normalize.css) -->
@@ -23,14 +23,70 @@
 		<title>Навстречу приключениям</title>
 	</head>
 	<body>
-		<!-- шапка сайта -->
-		<header class="header"></header>
-		<section class="intro"></section>
-		<section class="places"></section>
-		<section class="columns"></section>
-		<section class="form"></section>
-      <section class="video"></section>
-		<!-- подвал сайта -->
-		<footer class="footer"></footer>
+		<div class="page">
+			<!-- шапка сайта -->
+			<header class="header">
+				<nav class="nav">
+					<!-- наведение - opacity+transition -->
+					<ul class="header__links">
+						<li><a class="header__link" href="#">Мечты</a></li>
+						<li><a class="header__link" href="#">Ожидания</a></li>
+						<li><a class="header__link" href="#">Реальность</a></li>
+					</ul>
+					<a class="header__link header__link_complain" href="#"
+						>Пожаловаться</a
+					>
+				</nav>
+			</header>
+			<section class="intro">
+				<div class="intro__left">
+					<div class="intro__text">
+						<h1 class="intro__title">
+							Куда я поеду сразу, как можно будет куда-то поехать
+						</h1>
+						<p class="intro__subtitle">Куда я поеду</p>
+					</div>
+				</div>
+				<div class="intro__right">
+					<div class="intro__image"></div>
+				</div>
+			</section>
+			<section class="places">
+				<img src="./images/places-forest.jpeg" class="places__image"></img>
+				<div class="places__text">
+					<h2 class="places__title">Поеду в лес</h2>
+					<blockquote>
+						Лес — экологическая система, биоценоз, в которой главной жизненной
+						формой являются деревья. Лес — составная часть природы, понятие
+						«лес» можно рассматривать на разных уровнях. В глобальном масштабе —
+						это часть биосферы, в локальном — это может быть насаждение. Леса
+						занимают около трети площади суши.
+					</blockquote>
+				</div>
+				<div class="places__text">
+					<h2 class="places__title">Поеду в горы</h2>
+					<blockquote>
+						Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.
+
+					</blockquote>
+				</div>
+            <img src="./images/places-mountains.jpeg" class="places__image"></img>
+            <img src="./images/places-black-sea.jpeg" class="places__image"></img>
+				<div class="places__text">
+					<h2 class="places__title">Поеду на Чёрное море</h2>
+					<blockquote>
+						<p>Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+                  <p>Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+                  <p>Уеду я</p>
+
+					</blockquote>
+				</div>
+			</section>
+			<section class="columns"></section>
+			<section class="form"></section>
+			<section class="video"></section>
+			<!-- подвал сайта -->
+			<footer class="footer"></footer>
+		</div>
 	</body>
 </html>
