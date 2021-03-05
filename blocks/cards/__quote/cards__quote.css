@@ -1,0 +1,13 @@
+.cards__quote {
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1108px) {
+  .cards__quote {
+    font-size: 18px;
+  }
+}

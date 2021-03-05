@@ -1,0 +1,13 @@
+.columns {
+  margin: 117px auto 103px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1108px) {
+  .columns {
+    margin: 57px auto 53px;
+  }
+}

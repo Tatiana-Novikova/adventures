@@ -1,0 +1,10 @@
+.form__text{
+  width: 305px;
+  border: 0px;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+.form__text:focus{
+   box-shadow: 0 0 15px rgba(0,0,0, 0.25);
+}

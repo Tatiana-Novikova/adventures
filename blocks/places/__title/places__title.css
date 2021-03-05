@@ -1,0 +1,10 @@
+.places__title {
+  padding: 57px 0px 110px 62px;
+  margin: 0;
+}
+
+  @media (max-width: 1108px){
+    .places__title {
+      padding: 28px 0px 20px 40px;
+   }
+}
