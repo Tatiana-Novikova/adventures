@@ -1,0 +1,10 @@
+.intro__text {
+  padding: 93px 0px 164px 62px;
+}
+
+  @media (max-width: 1108px){
+  .intro__text {
+    padding: 0;
+    text-align: center;
+  }
+}

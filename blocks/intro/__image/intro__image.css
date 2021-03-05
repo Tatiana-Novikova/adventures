@@ -1,0 +1,15 @@
+.intro__image {
+  min-width: 309px;
+  height: 309px;
+  background-image: url("../../../images/intro-image.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 110px 0;
+}
+
+  @media screen and (max-width: 1108px) {
+  .intro__image {
+    background-position: center;
+    margin: 15px auto 0;
+  }
+}

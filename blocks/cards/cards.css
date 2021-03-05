@@ -1,0 +1,17 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: auto auto;
+  justify-content: space-between;
+  gap: 58px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+  
+@media (max-width:424px){
+   .cards{
+      justify-content: center;
+   }
+}
