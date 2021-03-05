@@ -1,4 +1,5 @@
 .cards__item {
+  margin: 0 58px;
   box-sizing: border-box;
   padding: 0;
   display: flex;
@@ -6,8 +7,15 @@
   flex-direction: column;
   justify-content: top;
   text-align: left;
+  max-width: 200px;
 }
 
 .cards__item:nth-of-type(4) {
-  margin-right: 0;
+  margin: 0 0 0 58px;
+}
+
+@media screen and (max-width: 767px) {
+  .cards__item, .cards__item:nth-of-type(4){
+    margin: 0 50px 50px;
+  }
 }
