@@ -9,9 +9,21 @@
   width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1108px) {
+  .video__button {
+    max-width: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .video__button {
     max-width: 65px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__button {
+    max-width: 55px;
   }
 }
 

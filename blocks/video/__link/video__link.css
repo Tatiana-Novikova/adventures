@@ -29,7 +29,19 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 1108px) {
+@media screen and (max-width: 1024px) {
+  .video__link {
+    min-height: 400px;
+  }  
+}
+
+@media screen and (max-width: 767px) {
+  .video__link {
+    min-height: 320px;
+  }  
+}
+
+@media screen and (max-width: 424px) {
   .video__link {
     min-height: 200px;
   }  
