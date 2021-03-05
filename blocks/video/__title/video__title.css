@@ -1,4 +1,12 @@
 .video__title {
-  margin: 115px 0 0 59px;
-  font-size: 32px;
+  position: relative;
+  margin: -315px 0 0 59px;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 1108px) {
+  .video__title {
+    margin: -115px 0 0 20px;
+    font-size: 16px;
+  }
 }

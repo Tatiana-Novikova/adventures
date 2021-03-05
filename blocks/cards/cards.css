@@ -1,17 +1,24 @@
 .cards {
-  margin: 0 auto;
+  margin: 0 53px;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
   justify-content: space-between;
   gap: 58px;
-  padding: 0;
-  margin: 0;
   list-style: none;
   text-align: left;
 }
   
-@media (max-width: 424px){
+@media screen and (max-width: 767px) {
+   .cards {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+      gap: 38px;
+   }
+}
+
+@media screen (max-width: 424px){
    .cards{
+      margin: 0 auto;
       justify-content: center;
    }
 }

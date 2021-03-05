@@ -8,3 +8,15 @@
   max-width: 80px;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .video__button {
+    max-width: 65px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__button {
+    max-width: 40px;
+  }
+}
