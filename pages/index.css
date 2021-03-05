@@ -30,6 +30,7 @@
 @import url('../blocks/places/__mountains-img/places__mountains-img.css');
 
 @import url('../blocks/columns/columns.css');
+@import url('../blocks/columns/__subtitle/columns__subtitle.css');
 @import url('../blocks/columns/__title/columns__title.css');
 @import  url('../blocks/columns/__subtitle/columns__subtitle.css');
 

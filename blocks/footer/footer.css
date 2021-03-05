@@ -7,13 +7,32 @@
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 34px;
   text-align: center;
+}
+
+@media screen and (max-width: 1108px) {
+  .footer {
+    min-height: 450px;
+    font-size: 24px;
+  }  
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    min-height: 250px;
+    font-size: 18px;
+  }  
 }
 
 @media screen and (max-width: 767px) {
   .footer {
-    min-height: 200px;
-    flex-direction: column;
+    min-height: 180px;
+    font-size: 16px;
+  }  
+}
+
+@media screen and (max-width: 424px) {
+  .footer {
+    min-height: 100px;
   }  
 }
