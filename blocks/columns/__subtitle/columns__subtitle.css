@@ -1,0 +1,12 @@
+.columns__subtitle {
+  padding: 0;
+  margin: 0;
+  color: #f9d8bc;
+  max-width: 482px;
+  line-height: 1.5;
+  font-size: 16px;
+  text-transform: uppercase;
+  position: relative;
+  top: 0;
+  left: 52px;
+}

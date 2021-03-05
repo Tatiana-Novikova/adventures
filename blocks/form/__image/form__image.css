@@ -1,13 +1,7 @@
 .form__image {
-    .form__image {
-        max-width: 100%;
-        height: 100%;
-        background-image: url("./images/airport-schedule.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-      }  max-width: 100%;
+  max-width: 100%;
   height: 100%;
-  background-image: url("./images/airport-schedule.jpg");
-  background-size: contain;
+  background-image: url("../../../images/airport-schedule.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }

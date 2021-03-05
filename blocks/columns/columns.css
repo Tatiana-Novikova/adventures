@@ -1,9 +1,10 @@
 .columns {
-  margin: 117px auto 103px;
+  margin: 84px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
+  position: relative;
 }
 
 @media screen and (max-width: 1108px) {
