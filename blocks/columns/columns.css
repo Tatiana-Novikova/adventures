@@ -1,5 +1,5 @@
 .columns {
-  margin: 84px 0 0 0;
+  margin-top: 84px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -11,4 +11,10 @@
   .columns {
     margin: 57px auto 53px;
   }
+}
+@media (max-width:768px){
+   .columns{
+      margin: 0 auto;
+      align-items: center;
+   }
 }

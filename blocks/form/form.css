@@ -3,3 +3,9 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
 }
+@media (max-width: 768px){
+   .form{
+      display: flex;
+      justify-content: center;
+   }
+}
