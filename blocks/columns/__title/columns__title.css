@@ -3,9 +3,8 @@
   padding-top: 62px;
   max-width: 343px;
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
    .columns__title{
       margin: 0 auto;
-      margin: 0;
    }
 }

@@ -29,3 +29,9 @@
       margin-right: 58px;
 	}
 }
+@media (max-width: 768px) {
+	.cards__item {
+		margin-bottom: 50px;
+      margin-right: 0;
+	}
+}
