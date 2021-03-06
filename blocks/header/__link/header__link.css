@@ -4,3 +4,6 @@
   color: #000;
   font-weight: 700;
 }
+.header__link:hover {
+  opacity: .5;
+}
