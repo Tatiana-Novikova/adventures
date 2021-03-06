@@ -15,5 +15,6 @@
 @media (max-width:768px){
    .columns{
       margin: 0 auto;
+      align-items: center;
    }
 }

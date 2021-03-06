@@ -19,8 +19,14 @@
       margin-right: 0;
 	}
 }
-@media (max-width: 768px) {
-	.cards__item:nth-of-type(4) {
+@media (max-width: 426px){
+   .cards__item:nth-of-type(4){
+      color: red;
       margin-right: 0;
+   }
+}
+@media (min-width: 768px) {
+	.cards__item:nth-of-type(4) {
+      margin-right: 58px;
 	}
 }
